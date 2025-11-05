@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buck - Catalogo</title>
+    <!--Enlazar archivos externos-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!--Menu Dinamico-->
+  <nav class="navbar navbar-dark py-0">
+    <div class="container-fluid p-0">
+      <a href="./index.html" class="navbar-brand fw-semibold fs-1 text-info mx-3">BUCK</a>
+      <!--Barra de busqueda-->
+      <div class="col">
+        <div class="input-group my-3">
+          <input type="text" class="form-control" placeholder="¡Descubre tu camino ninja en nuestra biblioteca de manga!" aria-label="Buscar" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button">Buscar</button>
+            </div>
+        </div>
+      </div>
+
+      <button class="navbar-toggler mx-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+          <div class="offcanvas-header p-4 pb-0">
+            <H2 class="offcanvas-title text-info">BUCK</H2>
+            <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
+          </div>
+            <div class="offcanvas-body d-flex flex-column justify-content-between ">
+                <ul 
+                    class="navbar-nav fs-6 justify-content-evenly">
+                    <li class="nav-item p-3 py-md-2"><a href="./index.html" class="nav-link">INICIO</a></li>
+                    <li class="nav-item p-3 py-md-2"><a href="./catalogo.html" class="nav-link">Catalogo</a></li>
+                    <li class="nav-item p-3 py-md-2"><a href="./contacto.html" class="nav-link">CONTACTO</a></li>
+                </ul>
+                <div class="d-flex justify-content-center py-3">
+                    <a href=""><i class="bi bi-twitter px-2 text-info fs-2"></i></a>
+                    <a href=""><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+                    <a href=""><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+  </nav>
+<div class="main-content p-3">
+  <!--Mangas-->
+  <div class="row">
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Chainsaw Man</h5>
+          </div>
+            <img src="./mangas/chainsa-man.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Chainsaw Man</a></h1>
+              <p class="card-sub-tittle">チェンソーマン</p>
+              <p class="card-text">Cuando su padre murió, Denji se vio obligado a saldar una gran deuda y no había forma de pagarla. Pero gracias a la ayuda de un Demonio Perro que salvó llamado Pochita, Denji es capaz de sobrevivir convirtiéndose en un Cazador de demonios a sueldo, haciendo trabajos para los Yakuza.</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Boku no Hero Academia</h5>
+          </div>
+            <img src="./mangas/Boku-no-Hero-Academia.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Boku no Hero Academia</a></h1>
+              <p class="card-sub-tittle">僕 の ヒーロー アカデミア</p>
+              <p class="card-text">La historia está ambientada en la época actual, excepto que las personas con poderes especiales se han vuelto comunes en todo el mundo. Un chico llamado Izuku Midoriya no tiene poderes, pero sueña tenerlos.</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Komi-san wa, Komyushou</h5>
+          </div>
+            <img src="./mangas/Komi-san-wa-Komyushou-desu.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Komi-san wa, Komyushou</a></h1>
+              <p class="card-sub-tittle">古見さんは、コミュ症です。</p>
+              <p class="card-text">El viaje a 100 amigos comienza con una sola conversación. El mayor sueño de la estudiante de secundaria socialmente ansiosa Shouko Komi es hacer amigos, ¡pero todos en la escuela confunden su ansiedad social paralizante con una reserva fría!</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Tate no Yuusha no Nariagari</h5>
+          </div>
+            <img src="./mangas/Tate-no-Yuusha-no-Nariagari.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Tate no Yuusha no Nariagari</a></h1>
+              <p class="card-sub-tittle">盾の勇者の成り上がり</p>
+              <p class="card-text">Iwatani Naofumi es convocado a otro mundo a convertirse en uno de los cuatro héroes, llamados "the shield hero". Comenzando con la mala popularidad y etiquetado como el más débil, Naofumi se vio traicionado a los tres días de su aventura. habiendo perderdido la fe y el dinero, todo lo que queda es sólo su escudo. </p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Kimetsu no Yaiba</h5>
+          </div>
+            <img src="./mangas/Kimetsu-no-Yaiba.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Kimetsu no Yaiba</a></h1>
+              <p class="card-sub-tittle">きめつ の やいば</p>
+              <p class="card-text">Tanjirou es el hijo mayor en una familia quien perdió a su padre. Un día, va de visita a otro pueblo para vender carbón, y termina quedándose a pasar la noche en la casa de un lugareño, ya que abunda el rumor de un demonio que ronda por las montañas por la noche. Cuando vuelve a casa al siguiente día, una tragedia lo estaba esperando.</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Shuumatsu no Valkyrie</h5>
+          </div>
+            <img src="./mangas/Shuumatsu-no-Valkyrie.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Shuumatsu no Valkyrie</a></h1>
+              <p class="card-sub-tittle">終末のワルキューレ</p>
+              <p class="card-text">Los Dioses se reúnen con el objetivo de decidir si la humanidad debe vivir o morir. Y aunque llegan a la conclusión de que debe perecer, una Valkyria propone que una lucha de dioses contra humanos para tomar tan difícil decisión. Así, 13 humanos pelearán contra 13 Dioses para resolver el destino de la humanidad.</p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>One Piece</h5>
+          </div>
+            <img src="./mangas/one-piece.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">One Piece</a></h1>
+              <p class="card-sub-tittle">ワンピース</p>
+              <p class="card-text">Hace veintidós años, el legendario pirata, Gold Roger fue ejecutado. Sus últimas palabras fueron que su tesoro conocido como "One Piece" estaba escondido en algún lugar dentro del vasto océano conocido como el "Grand Line" (Gran Ruta Marítima). </p> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div class="card">
+        <div class="card-header">
+          <h5>Nazo no Kanojo X</h5>
+          </div>
+            <img src="./mangas/nazo-no-kanojo.webp" class="card-img" alt="">
+          <div class="card-body ">
+              <h1 class="card-title pt-5"><a href="./Error.html">Nazo no Kanojo X</a></h1>
+              <p class="card-sub-tittle">謎の彼女Ｘ</p>
+              <p class="card-text">Mikoto Urabe es una chica rara, no está interesada en socializarse. Un día, Akira Tsubaki, un compañero de clase, la encuentra durmiendo en su pupitre, y prueba su saliva sin pensarlo. Al cabo de unos días cae enfermo. Al no recuperarse, Mikoto le visita y le pregunta si él probó su saliva.</p> 
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+</body>
+</html>

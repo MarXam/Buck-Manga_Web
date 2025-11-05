@@ -1,0 +1,85 @@
+/*Modificaciona globales*/
+body {
+    background-color: #000000;
+}
+/*Caratulas de anime*/
+.card{
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid #0dcaf0;
+}
+.card-header{
+  background-color: #1e293b;
+  color: #0dcaf0;
+}
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d47a8;
+  backdrop-filter: blur(5px); ;
+  border-radius: 15px;
+  color: white;
+  transition: 1s;
+}
+.card:hover .card-body{
+  right: 0;
+}
+.card-title, a{
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+.card-sub-title{
+  text-transform: capitalize;
+}
+.card-img{
+  border-radius: 0%;
+}
+/*Buscador*/
+.input-group {
+  background-color: #343a40; /* Color de fondo gris oscuro */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.input-group input[type="text"] {
+  border: none;
+  background-color: #343a40; /* Color de fondo gris oscuro */
+}
+
+.input-group-append button {
+  background-color: #343a40; /* Color de fondo gris oscuro */
+  color: #3cc9f4; /* Color del texto azul */
+  border: none;
+  margin-left: 10px;
+}
+/*Menu*/
+nav, .offcanvas {
+  background-color: #1e293b;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+/*Slider*/
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slide {
+  flex: 0 0 100%;
+}
+img {
+  width: 45%;
+  height: auto;
+}

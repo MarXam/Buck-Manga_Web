@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buck - Inicio</title>
+    <!--Enlazar archivos externos-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!--Menu Dinamico-->
+  <nav class="navbar navbar-dark py-0">
+    <div class="container-fluid p-0">
+      <a href="./index.html" class="navbar-brand fw-semibold fs-1 text-info mx-3">BUCK</a>
+      <!--Barra de busqueda-->
+      <div class="col">
+        <div class="input-group my-3">
+          <input type="text" class="form-control" placeholder="¡Descubre tu camino ninja en nuestra biblioteca de manga!" aria-label="Buscar" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button">Buscar</button>
+            </div>
+        </div>
+      </div>
+
+      <button class="navbar-toggler mx-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <section class="offcanvas offcanvas-start" id="menuLateral" tabindex="-1">
+          <div class="offcanvas-header p-4 pb-0">
+            <H2 class="offcanvas-title text-info">BUCK</H2>
+            <button class="btn-close" type="button" aria-label="close" data-bs-dismiss="offcanvas"></button>
+          </div>
+            <div class="offcanvas-body d-flex flex-column justify-content-between ">
+                <ul 
+                    class="navbar-nav fs-6 justify-content-evenly">
+                    <li class="nav-item p-3 py-md-2"><a href="./index.html" class="nav-link">INICIO</a></li>
+                    <li class="nav-item p-3 py-md-2"><a href="./catalogo.html" class="nav-link">Catalogo</a></li>
+                    <li class="nav-item p-3 py-md-2"><a href="./contacto.html" class="nav-link">CONTACTO</a></li>
+                </ul>
+                <div class="d-flex justify-content-center py-3">
+                    <a href=""><i class="bi bi-twitter px-2 text-info fs-2"></i></a>
+                    <a href=""><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+                    <a href=""><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+  </nav>
+<div class="main-content p-3">
+  <!--Titulo de pagina-->
+  <div class="text-white text-center pb-3">
+    <h1>¡Bienvenido a BUCK: Sumérgete en el Universo del Manga!</h1>
+    <p>Explora, Lee y Descubre tu Pasión por el Manga en un Solo Lugar</p>
+  </div>
+  <!--Contener de los 2 items-->
+  <div class="container">
+    <div class="row">
+      <!--columna-->
+      <div class="col-md-6 text-white text-center my-3">
+        <h2 >¿Qué encontrarás aquí?</h2>
+        <p class="mt-4">Buck es tu destino definitivo para disfrutar del fascinante mundo del manga. Con una amplia colección de series y capítulos actualizados regularmente, te invitamos a sumergirte en aventuras emocionantes, historias cautivadoras y personajes inolvidables. Navega por nuestra biblioteca digital, donde encontrarás géneros para todos los gustos: desde acción y fantasía hasta romance y comedia. ¡No importa si eres un ávido seguidor o un recién llegado al mundo del manga, en Buck siempre encontrarás algo que te atrape! Únete a nuestra comunidad, comparte tus impresiones y descubre nuevos títulos para agregar a tu lista de lectura. ¡Bienvenido a Buck, donde la magia del manga cobra vida!</p>
+        <a href="./catalogo.html" class="btn btn-primary mt-3">Ir a la galería de mangas</a>
+      </div>
+      <!--columna-->
+      <div class="col-md-6 text-center text-white">
+        <div class="slider-container justify-content-center">
+          <div class="slider">
+            <div class="slide">
+              <img src="./mangas/Boku-no-Hero-Academia.webp" class="img-fluid mt-4" alt="Imagen 1">
+            </div>
+            <div class="slide">
+              <img src="./mangas/chainsa-man.webp" class="img-fluid mt-4" alt="Imagen 2">
+            </div>
+            <div class="slide">
+              <img src="./mangas/Kimetsu-no-Yaiba.webp" class="img-fluid mt-4" alt="Imagen 3">
+            </div>
+            <div class="slide">
+              <img src="./mangas/Komi-san-wa-Komyushou-desu.webp" class="img-fluid mt-4" alt="Imagen 1">
+            </div>
+            <div class="slide">
+              <img src="./mangas/nazo-no-kanojo.webp" class="img-fluid mt-4" alt="Imagen 1">
+            </div>
+            <div class="slide">
+              <img src="./mangas/one-piece.webp" class="img-fluid mt-4" alt="Imagen 1">
+            </div>
+            <div class="slide">
+              <img src="./mangas/Shuumatsu-no-Valkyrie.webp" class="img-fluid mt-4" alt="Imagen 1">
+            </div>
+            <div class="slide">
+              <img src="./mangas/Tate-no-Yuusha-no-Nariagari.webp" class="img-fluid mt-4" alt="Imagen 1">
+            </div>
+          </div>
+          <script src="./js/scripts.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
